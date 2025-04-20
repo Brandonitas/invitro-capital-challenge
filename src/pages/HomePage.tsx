@@ -1,5 +1,5 @@
-import { DoctorDirectory } from '../doctors/DoctorDirectory';
-import BookingModal from '../modals/BookingModal';
+import { DoctorDirectory } from '../components/doctors/DoctorDirectory';
+import BookingModal from '../components/modals/BookingModal';
 
 const HomePage = () => {
   return (

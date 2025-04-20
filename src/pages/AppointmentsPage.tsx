@@ -1,4 +1,4 @@
-import { useAppointmentsStore } from '../../store/appointmentsStore';
+import { useAppointmentsStore } from '../store/appointmentsStore';
 import { Link } from 'react-router-dom';
 
 export const AppointmentsPage = () => {
