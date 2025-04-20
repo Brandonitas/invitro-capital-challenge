@@ -55,6 +55,7 @@ const Modal = ({ isOpen, onClose, title, children, footer }: ModalProps) => {
             <button
               className="p-1 ml-auto bg-transparent border-0 text-gray-400 hover:text-gray-900 transition-colors rounded-lg"
               onClick={onClose}
+              aria-label="Close modal"
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path

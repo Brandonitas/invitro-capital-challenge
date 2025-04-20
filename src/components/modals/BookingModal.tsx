@@ -133,11 +133,13 @@ const BookingModal = () => {
                                 <Button
                                     variant='outline'
                                     onClick={handleBack}
+                                    aria-label="Back to appointment selection"
                                 >
                                     Back
                                 </Button>
                                 <Button
                                     onClick={handleConfirm}
+                                    aria-label="Confirm appointment"
                                 >
                                     Confirm Appointment
                                 </Button>

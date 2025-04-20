@@ -40,6 +40,7 @@ export const Header = () => {
               aria-controls="mobile-menu"
               aria-expanded={isMobileMenuOpen}
               onClick={toggleMobileMenu}
+              aria-label="Open main menu"
             >
               <span className="sr-only">Open main menu</span>
               {/* Icon when menu is closed */}
