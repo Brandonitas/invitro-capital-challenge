@@ -15,7 +15,7 @@ A responsive and accessible appointment booking UI for a healthcare platform, bu
 1. Clone the repository
 ```bash
 git clone [repository-url]
-cd healthcare-appointment-booking
+cd invitro-capital-challenge
 ```
 
 2. Install dependencies
